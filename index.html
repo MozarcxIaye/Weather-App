@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App | Javascript</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <span class="title">Weather</span>
+
+        <p class="location-text">Location</p>
+        <div class="search-container">
+            <input type="text" placeholder="Enter a country or a city name">
+            <i class="fa-solid fa-search"></i>
+        </div>
+
+        <div class="error404">
+            <img src="./images/404.svg" alt="">
+            <p class="invalid-txt">Invalid Location. Please try again.</p>
+        </div>
+
+        <div class="weather-container">
+            <div class="weather-img">
+                <img src="">
+            </div>
+            <div class="weather-desc">
+                <p class="location"></p>
+                <span class="temp"></span>
+                <p class="weather-details"></p>
+                <p class="current-date"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/452219d2e2.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

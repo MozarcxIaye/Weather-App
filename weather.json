@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 84,
+        "lat": 28
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 27.22,
+        "feels_like": 26.69,
+        "temp_min": 27.22,
+        "temp_max": 27.22,
+        "pressure": 1006,
+        "humidity": 33,
+        "sea_level": 1006,
+        "grnd_level": 897
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 0.79,
+        "deg": 16,
+        "gust": 1
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1685585246,
+    "sys": {
+        "country": "NP",
+        "sunrise": 1685575691,
+        "sunset": 1685625339
+    },
+    "timezone": 20700,
+    "id": 1282988,
+    "name": "Nepal",
+    "cod": 200
+}
