@@ -9,7 +9,7 @@ body{
     background: linear-gradient(to right, #24c6dc, #514a9d);
     font-family: poppins, sans-serif;
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@ body{
     /* error */
     /* height: 22.5rem;  */
     background: aliceblue;
-    /* overflow: hidden; */
+    overflow: hidden;
     width: 375px;
     border-radius: 24px;
     padding: 1.5rem;
@@ -82,8 +82,8 @@ body{
 }
 
 .error404 img{
-    aspect-ratio: 4/3;
-    position: relative;
+    aspect-ratio: 2/1;
+    margin-top: 1.4rem;
 }
 .error404{
     margin-top: .5rem;
@@ -100,28 +100,20 @@ body{
 .weather-container{
     display: flex; 
     flex-direction: row;
-    justify-content: space-between;
-    
-    /* position: relative; */
-    border: 2px solid red;
     
 }
 .weather-container .weather-img{
-    /* width: 12.5rem; */
-    width: 5rem;
-    padding: .3rem;
+    max-width: 12rem;
 }
 .weather-container .weather-img img{
     width: 100%;
-    border: 2px solid blue;
 }
 .weather-desc{
-    display: inline;
-  /* flex-direction: column;
+    display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center; */
-  margin-top: 1rem;
-  border: 2px solid blueviolet;
+  align-items: center;
+  width: 100%;
 }
 .weather-desc .temp{
     font-size: 2rem;
@@ -140,11 +132,11 @@ body{
 }
 
 .fadeIn {
-    display: block;
     animation: 0.5s fadeIn forwards;
     animation-delay: 0.2s;
 }
 @keyframes fadeIn {
+    
     to{
         scale: 1;
         opacity: 1;
